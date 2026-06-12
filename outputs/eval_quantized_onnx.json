@@ -1,0 +1,13 @@
+{
+  "model": "vit_smartcampus_dynamic_int8.onnx",
+  "accuracy": 0.9411764705882353,
+  "macro_f1": 0.925718360943008,
+  "num_test": 119,
+  "classes": [
+    "classroom",
+    "computerroom",
+    "corridor",
+    "library",
+    "office"
+  ]
+}

@@ -1,0 +1,3 @@
+﻿Model,Size MB,Accuracy,Macro-F1,Latency ms,Throughput img/s,Nhận xét
+Baseline ONNX FP32,42.636,0.9412,0.9257,12.477,80.149,"Model gốc, độ chính xác tốt hơn nhưng chưa nén"
+Dynamic Quantization INT8,42.633,0.9412,0.9257,12.674,78.904,"Nén an toàn MatMul/Gemm, chạy được trên ONNX Runtime CPU"

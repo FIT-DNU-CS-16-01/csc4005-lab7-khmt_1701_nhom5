@@ -1,0 +1,13 @@
+{
+  "method": "onnx_dynamic_quantization_safe",
+  "input_onnx": "models/vit_smartcampus.onnx",
+  "output_onnx": "models/vit_smartcampus_dynamic_int8.onnx",
+  "op_types_to_quantize": [
+    "MatMul",
+    "Gemm"
+  ],
+  "weight_type": "QInt8",
+  "baseline_size_mb": 42.63574981689453,
+  "compressed_size_mb": 42.632615089416504,
+  "size_reduction_percent": 0.007352345136393495
+}
